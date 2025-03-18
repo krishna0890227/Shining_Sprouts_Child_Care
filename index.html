@@ -48,13 +48,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About Us</a>
+                  <a class="nav-link" href="#aboutus">About Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#sign-up">Sign Up</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contactus">Contact</a>
                   </li>
               </ul>
             </div>
@@ -97,16 +97,16 @@
           </div>
     </header>
     <main>
-    <section class="container-fluid">
+    <section class="container-fluid" id="aboutus">
         <div class="row">
             <div class="col-12 col-xl-6 text-center">  
                <h2><strong> Photos/Gallary </strong></h2>
             </div>
             <div class="col-12 col-xl-6 text-center">
-
-             <h2><strong>About Us</strong></h2>
-             <div class="row" id="aboutus">
+             
+             <div class="row">
                 <div class="justify-text-center">
+                  <h2></h2><strong>About Us</strong></h2>
                   <h3 class="h5 text-center"> Join Our Shining Sprouts Child Care</h3>
                   <h3 class="h5 text-center"> for age 0 - 3 years old.</h3>
                 <div>
@@ -169,15 +169,15 @@
           <div class="row g-3">
             <div class="col-4 sharp-corners">
               <label for="firstname" class="form-label"> Baby's Name :</label>
-            <input type="text" class="form-control" id="firstname">
+            <input type="text" class="form-control" id="firstname" name="child name" required>
             </div>
             <div class="col-4 sharp-corners">
               <label for="name_adult" class="form-label"> Parent's Name :</label>
-              <input type="text" class="form-control" id="name_adult">
+              <input type="text" class="form-control" id="name_adult" name="parent name" required>
             </div>
           <div class="col-4 sharp-corners">
             <label for="email" class="form-label"> Your Email Address :</label>
-            <input type="email" class="form-control" id="email">
+            <input type="email" class="form-control" id="email" name="email" required>
           </div>
           <div class="col-12 sharp-corners">
             <button type="submit" class="btn btn-outline-success">Send</button>
@@ -186,8 +186,8 @@
         </form>
       </section>
     </main>
-    <footer class="mt-auto">
-            <div class="container-fluid" id="contactus">
+    <footer id="contactus" class="mt-auto">
+            <div class="container-fluid">
               <div class="row">
                 <!--contact info-->
                 <p class="h2 text-center"><strong> Contact Us ! </strong></p>
@@ -224,4 +224,8 @@
             </div>
     </footer>
 </body>
+<script
+src="https://kit.fontawesome.com/87560690b1.js"
+crossorigin="anonymous"
+></script>
 </html>
