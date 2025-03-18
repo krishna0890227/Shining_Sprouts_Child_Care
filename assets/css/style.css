@@ -45,6 +45,11 @@ h1, h2, h3, h5 {
     font-size: 1rem;
 }
 
+#gallary-image {
+    display:flex;
+    margin: 5px 10px;
+}
+
 #contactus{
     color:green;
     background-color:lightgray;
